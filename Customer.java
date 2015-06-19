@@ -5,7 +5,7 @@ public class Customer extends User{
 	private long creditCard;
 	private List<String> interests = new ArrayList<String>();
 	private String postalAddress;
-	private List<Order> orders = new ArrayList<Order>
+	private List<Order> orders = new ArrayList<Order>;
 
 	public Customer(){}
 
