@@ -2,8 +2,8 @@ import java.util.*;
 
 public class Administrator extends User{
 
-	private List<String> permissions = new ArrayList<String>;
-	private List<String> role = new ArrayList<String>;
+	private List<String> permissions = new ArrayList<String>();
+	private List<String> role = new ArrayList<String>();
 
 	public List<String> getPermissions(){
 
@@ -44,13 +44,13 @@ public class Administrator extends User{
 
 	public void addPermission(String permission){
 
-		this.permission.add(permission);
+		this.permissions.add(permission);
 
 	}
 
 	public boolean removePermission(String permission){
 
-		return this.permission.remove(permission);
+		return this.permissions.remove(permission);
 
 	}
 

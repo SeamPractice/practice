@@ -7,7 +7,7 @@ public class Order{
 	private String dateShipped;
 	private String status;
 	private Bill bill;
-	private List<Product> products = new ArrayList<Product>;
+	private List<Product> products = new ArrayList<Product>();
 
 	public Order(){}
 

@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Bill{
 
 	private long totalCost;
@@ -35,7 +37,7 @@ public class Bill{
 
 		for(int i = 0; i < discounts.size(); i++)
 		
-			totalDiscount+=discounts.get(i);
+			totalDiscounts+=discounts.get(i);
 
 		return totalCost-totalDiscounts;
 

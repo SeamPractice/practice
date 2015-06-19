@@ -5,7 +5,7 @@ public class Customer extends User{
 	private long creditCard;
 	private List<String> interests = new ArrayList<String>();
 	private String postalAddress;
-	private List<Order> orders = new ArrayList<Order>;
+	private List<Order> orders = new ArrayList<Order>();
 
 	public Customer(){}
 
@@ -30,7 +30,7 @@ public class Customer extends User{
 
 	public void setInterest(List<String> interest){
 
-		this.interest = interest;
+		this.interests = interest;
 
 	}
 
@@ -46,13 +46,13 @@ public class Customer extends User{
 
 	}
 
-	public List<String> getOrders(){
+	public List<Order> getOrders(){
 
 		return this.orders;
 
 	}
 
-	public void setOrders(List<String> orders){
+	public void setOrders(List<Order> orders){
 
 		this.orders = orders;
 
@@ -67,7 +67,7 @@ public class Customer extends User{
 
 	private boolean removeInterest(String interest){
 
-		this.interest.remove(interest);
+		return this.interests.remove(interest);
 
 	}
 
